@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+.header {
+    display: flex;
+    justify-content: flex-end; /* Aligns the nav to the right */
+    align-items: center; /* Vertically centers the nav links */
+    padding: 2rem 2rem; /* Adjust padding as needed */
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 0; /* Positions the header at the top */
+    right: 0; /* Ensures alignment to the right */
+    left: 0; /* Ensures the header spans the full width */
+    /* background-color: rgba(0, 0, 0, 0.8); Optional: Add a semi-transparent background */
+    z-index: 1000; /* Ensures the header stays above other elements */
+    /* border-bottom: 2px solid white; */
+}
+
+.nav-links {
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s ease;
+}
+
+p a:hover {
+    border-bottom: 2px solid white;
+}
