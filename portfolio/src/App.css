@@ -1,8 +1,8 @@
-body {
-  background-image: url('../public/background.jpg'); /* Replace with your image path */
-  background-size: cover; /* Ensures the image covers the entire screen */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed; /* Keeps the background fixed during scrolling */
-  margin: 0; /* Removes default margin */
-  padding: 0; /* Removes default padding */
-}
+body { 
+  background-image: url('../public/newback.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  margin: 0; 
+  padding: 0; 
+ }
