@@ -8,6 +8,7 @@ import About from './pages/about'
 import Header from './components/nav'; // Import the Header component
 import Footer from './components/footer'; // Import the Footer component
 import Portfolio from './pages/portfolio'; // Import the Portfolio component
+import Resume from './pages/Resume'; // Import the Resume component
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
       <Footer />
     </Router>
