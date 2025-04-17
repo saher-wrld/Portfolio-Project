@@ -1,3 +1,12 @@
+/* body { */
+  /* background-image: url('../public/background.jpg'); Replace with your image path */
+  /* background-size: cover; Ensures the image covers the entire screen */
+  /* background-repeat: no-repeat; Prevents the image from repeating */
+  /* background-attachment: fixed; Keeps the background fixed during scrolling */
+  /* margin: 0; Removes default margin */
+  /* padding: 0; Removes default padding */
+/* } */
+
 .about-section {
     padding: 4rem;
     max-width: 700px;
@@ -88,13 +97,17 @@
   border-radius: 10px;
 }
 
-.fade-container::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.4); /* the draggable thumb */
+/* .fade-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4); 
   border-radius: 10px;
   border: 2px solid transparent;
   background-clip: padding-box;
-}
+} */
 
+.fade-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ffc9de, #e6aaff);
+  border-radius: 10px;
+}
 .fade-container::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.6);
 }

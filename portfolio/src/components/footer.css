@@ -1,12 +1,38 @@
-.bottom-image {
-    position: fixed;
-    bottom: 0;
-    left: 0; 
-    width: 1500px; 
-    z-index: 10;
-    opacity: 0.5; 
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none; /* lets clicks through the background image */
+}
 
-  }
+.footer-image {
+  width: 100%;
+  opacity: 0.5;
+  pointer-events: none;
+}
 
-  
-  
+.footer-icons {
+  display: flex;
+  gap: 2rem;
+  margin-top: -60px; /* pull the icons up on top of the image */
+  z-index: 1001;
+  pointer-events: auto; /* make sure icons are clickable */
+}
+
+.footer-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+  cursor: pointer;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.9));
+}

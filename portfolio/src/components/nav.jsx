@@ -2,6 +2,7 @@ import React from 'react';
 import './nav.css'; // import the CSS styles
 import { useNavigate } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import name from '../../public/name.png'
 
 
 
@@ -28,6 +29,9 @@ const handleContactClick = () => {
 
     return (
       <header className="header">
+        <div className="header-pic">
+            <img src={name} alt="Logo" className="logo" />
+          </div>
         <nav className="nav-links">
             <p onClick={handleAboutClick} style={{ cursor: 'pointer' }}>about me</p>
             <p onClick={handlePortfolioClick} style={{ cursor: 'pointer' }}>portfolio</p>
