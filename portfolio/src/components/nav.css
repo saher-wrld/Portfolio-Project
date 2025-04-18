@@ -53,6 +53,11 @@
     margin-right: 1rem; /* Adjust spacing as needed */
 }
 
+.active-link {
+    border-bottom: 2px solid white;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  }
+
 /* 
 
 p a:hover {

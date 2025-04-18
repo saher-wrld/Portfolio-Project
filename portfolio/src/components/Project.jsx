@@ -11,15 +11,15 @@ import React from 'react';
 
 
 function Project({ project }) {
-  const { name, repo, link, description } = project;
-  const imageName = encodeURIComponent(name) + '.png';
+  const { name, repo, link, description, imgName } = project;
+  const imageName = encodeURIComponent(imgName) + '.png';
 
 
   return (
     <div className="project-card">
       <img
         src={`../../public/${imageName}`}
-        alt={name}
+        alt={imgName}
         className="project-image"
       />
       <div className="overlay">
