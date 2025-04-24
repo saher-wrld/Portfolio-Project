@@ -1,7 +1,7 @@
 // export default 
 import React, {useState} from 'react';
 import '../styles/Portfolio.css';
-import Project from '../components/project';
+import Project from '../components/projects';
 
 function Portfolio() {
   const [projects] = useState([
