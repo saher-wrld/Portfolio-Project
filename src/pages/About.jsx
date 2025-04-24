@@ -1,6 +1,6 @@
 // import React from 'react';
 import '../styles/About.css';
-import saher from '../../public/profilepic.png'
+import saher from '../assets/profilepic.png'
 
 
 

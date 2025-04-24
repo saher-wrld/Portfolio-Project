@@ -2,10 +2,10 @@ import React from 'react';
 import './footer.css'; // import the CSS styles
 import { Link, useNavigate } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import footer from '../../public/footer.png';
-import github from '../../public/github.jpg';
-import linkedin from '../../public/linkedin.jpg';
-import instagram from '../../public/instagram.jpg';
+import footer from '../assets/footer.png';
+import github from '../assets/github.jpg';
+import linkedin from '../assets/linkedin.jpg';
+import instagram from '../assets/instagram.jpg';
 
 // const handleAboutClick = () => {
 //     navigate('/about');

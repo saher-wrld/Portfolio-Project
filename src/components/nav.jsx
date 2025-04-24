@@ -2,7 +2,7 @@ import React from 'react';
 import './nav.css'; // import the CSS styles
 import { useNavigate, useLocation } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import name from '../../public/name.png'
+import name from '../assets/name.png'
 
 
 
