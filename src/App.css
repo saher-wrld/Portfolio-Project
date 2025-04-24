@@ -1,5 +1,5 @@
 body { 
-  background-image: url('../public/newback.png'); 
+  background-image: url('./assets/newback.png'); 
   background-size: cover; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
