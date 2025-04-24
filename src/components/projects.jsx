@@ -18,7 +18,7 @@ function Project({ project }) {
   return (
     <div className="project-card">
       <img
-        src={`../../public/${imageName}`}
+        src={`../assets/${imageName}`}
         alt={imgName}
         className="project-image"
       />
