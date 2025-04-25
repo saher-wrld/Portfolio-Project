@@ -6,7 +6,7 @@ import Project from '../components/projects';
 function Portfolio() {
   const [projects] = useState([
     {
-      name: 'FIZZ',
+      name: 'FIZZ  ',
       repo: 'https://github.com/Treevyy/Fizz',
       link: 'https://github.com/Treevyy/Fizz',
       description: 'Dating Website',
