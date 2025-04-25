@@ -7,7 +7,7 @@ import './App.css'
 import About from './pages/About'
 import Header from './components/nav'; // Import the Header component
 import Footer from './components/footer'; // Import the Footer component
-import Portfolio from './pages/Portfolio'; // Import the Portfolio component
+import Portfolio from './pages/portfolio'; // Import the Portfolio component
 import Resume from './pages/Resume'; // Import the Resume component
 import Contact from './pages/Contact';
 
